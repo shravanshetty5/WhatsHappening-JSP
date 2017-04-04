@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Explore City - Directory Listing HTML Template</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Font Awesome Icons -->
+		<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<!-- PE Icon 7 Stoke -->
+		<link href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet">
+		<link href="fonts/pe-icon-7-stroke/css/helper.css" rel="stylesheet">
+		<!-- PE Icon Social -->
+		<link href="fonts/pe-icon-social/css/pe-icon-social.css" rel="stylesheet">
+		<link href="fonts/pe-icon-social/css/helper.css" rel="stylesheet">
+		<!-- Quicksand Dash -->
+		<link href="fonts/quicksand-dash/stylesheet.css" rel="stylesheet">
+		<!-- Owl Carousel -->
+		<link href="css/owl.carousel.css" rel="stylesheet">
+		<link href="css/owl.theme.default.css" rel="stylesheet">
+		<!-- Sweet Alert -->
+		<link href="css/sweetalert.css" rel="stylesheet">
+		<!-- Animate -->
+		<link href="css/animate.min.css" rel="stylesheet">
+		<!-- Nivo Lightbox -->
+		<link href="scripts/Nivo-Lightbox/nivo-lightbox.css" rel="stylesheet">
+		<link href="scripts/Nivo-Lightbox/themes/default/default.css" rel="stylesheet">
+		<!-- NoUISlider -->
+		<link href="css/jquery.nouislider.min.css" rel="stylesheet">
+		<!-- Bootstrap Select -->
+		<link href="css/bootstrap-select.min.css" rel="stylesheet">
+		<!-- Style.css -->
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+		
+		<header class="header clearfix">
+			<div class="left">
+				<div class="logo"><a href="index.html"><img src="images/logo.png" alt="ExploreCity" class="img-responsive"></a></div> <!-- end .logo -->
+				<form class="header-search">
+					<input type="text" placeholder="I’m searching for ...">
+					<button type="submit"><i class="pe-7s-search"></i></button>
+				</form>
+			</div> <!-- end .left -->
+			<div class="navigation clearfix">
+				<nav class="main-nav">
+					<ul class="list-unstyled">
+						<li class="menu-item-has-children">
+							<a href="list.html">Explore</a>
+							<ul>
+								<li><a href="list.html">All Listings</a></li>
+								<li class="menu-item-has-children">
+									<a href="list.html">Food & Drink<i class="pe-7s-right-arrow"></i></a>
+									<ul>
+										<li><a href="list.html">Cafe’</a></li>
+										<li><a href="list.html">Restaurant</a></li>
+										<li><a href="list.html">Pizza Place</a></li>
+									</ul>
+								</li>
+								<li><a href="list.html">Entertainment</a></li>
+								<li><a href="list.html">Nightlife</a></li>
+							</ul>
+						</li>
+						<li class="menu-item-has-children">
+							<a href="index.html">Pages</a>
+							<ul>
+								<li><a href="how-it-works.html">How It Works</a></li>
+								<li><a href="add-listing.html">Add Listing</a></li>
+								<li><a href="add-your-listing.html">Add Your Listing</a></li>
+								<li><a href="list.html">List</a></li>
+								<li><a href="list-detail.html">List Detail</a></li>
+								<li class="menu-item-has-children">
+									<a href="dashboard.html">Dashboard<i class="pe-7s-right-arrow"></i></a>
+									<ul>
+										<li><a href="dashboard.html">Dashboard</a></li>
+										<li><a href="my-listings.html">My Listings</a></li>
+										<li><a href="my-wishlist.html">My Wishlist</a></li>
+										<li><a href="edit-profile.html">Edit Profile</a></li>
+									</ul>
+								</li>
+								<li><a href="maintenance.html">Maintenance</a></li>
+								<li><a href="coming-soon.html">Coming Soon</a></li>
+								<li><a href="404.html">404</a></li>
+							</ul>
+						</li>
+						<li class="menu-item-has-children">
+							<a href="blog.html">Blog</a>
+							<ul>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="blog-post.html">Blog Post</a></li>
+								<li><a href="blog-post-video.html">Blog Post Video</a></li>
+								<li><a href="blog-post-gallery.html">Blog Post Gallery</a></li>
+								<li><a href="blog-post-quote.html">Blog Post Quote</a></li>
+							</ul>
+						</li>
+						<li class="menu-item-has-children">
+							<a href="shop.html">Shop</a>
+							<ul>
+								<li><a href="shop.html">Shop</a></li>
+								<li><a href="shop-details.html">Shop Details</a></li>
+								<li><a href="shop-cart.html">Shop Cart</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav> <!-- end .main-nav -->
+				<a href="" class="responsive-menu-open"><i class="fa fa-bars"></i></a>
+			</div> <!-- end .navigation -->
+			<div class="right">
+				<a href="" class="button border">Add Listing</a>
+				<a href="" class="button login-open">Log In</a>
+			</div> <!-- end .right -->
+		</header> <!-- end .header -->
+		<div class="responsive-menu">
+			<a href="" class="responsive-menu-close"><i class="fa fa-times"></i></a>
+			<nav class="responsive-nav"></nav> <!-- end .responsive-nav -->
+		</div> <!-- end .responsive-menu -->
+
+		<div class="page-header">
+			<div class="container">
+				<div class="breadcrumbs">
+					<ul class="list-unstyled">
+						<li><a href="list.html">Listings</a></li>
+						<li><a href="list.html">Food</a></li>
+						<li><a href="list.html">Restaurant</a></li>
+						<li>Vitae Lobortis Restaurant</li>
+					</ul>
+				</div> <!-- end .breadcrumbs -->
+			</div> <!-- end .container -->
+		</div> <!-- end .page-header -->
+
+		<div class="section light">
+			<div class="inner">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+							<div class="directory-single-info">
+								<h2>Vitae Lobortis Restaurant<img src="images/heading.png" alt="icon"></h2>
+								<p>Curabitur mattis diam at erat luctus, quis porttitor elit facilisis.</p>
+								<ul class="meta list-unstyled">
+									<li><img src="images/location.png" alt="icon">Leonard St , NewYork</li>
+									<li><img src="images/phone.png" alt="icon">+84 987654321</li>
+									<li>
+										<div class="social">
+											<a href=""><img src="images/facebook.png" alt="facebook"></a>
+											<a href=""><img src="images/twitter.png" alt="twitter"></a>
+											<a href=""><img src="images/google-plus.png" alt="google plus"></a>
+										</div> <!-- end .social -->
+									</li>
+									<li><div class="rating">4.0</div><div class="number-of-ratings">( <span>3</span> )</div></li>
+								</ul>
+								<a href="https://themeforest.net/user/wecookcode/portfolio" target="_blank" class="link"><img src="images/link.png" alt="icon">themeforest.net/user/wecookcode/portfolio</a>
+								<div class="buttons">
+									<a href="" class="button dark"><img src="images/write.png" alt="icon">Write a Review</a>
+									<a href="" class="button dark"><img src="images/add.png" alt="icon">Add to Favorites</a>
+									<div class="button dark share-button">
+										<img src="images/share.png" alt="icon">Share
+										<div class="social">
+											<a href=""><img src="images/facebook.png" alt="facebook"></a>
+											<a href=""><img src="images/twitter.png" alt="twitter"></a>
+											<a href=""><img src="images/google-plus.png" alt="google plus"></a>
+										</div> <!-- end .social -->
+									</div>
+								</div> <!-- end .buttons -->
+							</div> <!-- end .directory-single-info -->
+						</div> <!-- end .col-md-8 -->
+						<div class="col-md-4">
+							<div class="single-map" id="single-map"></div>
+						</div> <!-- end .col-md-4 -->
+					</div> <!-- end .row -->
+				</div> <!-- end .container -->
+			</div> <!-- end .inner -->
+		</div> <!-- end .section -->
+
+		<div class="directory-single-slider-wrapper">
+			<div class="directory-single-slider">
+				<img src="images/directory-single-slider01.jpg" alt="image" class="img-responsive">
+				<img src="images/directory-single-slider02.jpg" alt="image" class="img-responsive">
+				<img src="images/directory-single-slider03.jpg" alt="image" class="img-responsive">
+				<img src="images/directory-single-slider04.jpg" alt="image" class="img-responsive">
+			</div> <!-- end .directory-single-slider -->
+			<div class="sliderNav">
+				<div class="container">
+					<div id="customNav"></div>
+				</div> <!-- end .container -->
+			</div> <!-- end .sliderNav -->
+		</div> <!-- end .directory-single-slider-wrapper -->
+
+		<div class="section light">
+			<div class="inner">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+							<div class="directory-single">
+								<p>Aliquam erat volutpat. Curabitur sodales tellus sed arcu sagittis tincidunt. Curabitur ac pulvinar neque. In magna est, aliquam in viverra quis, molestie at nunc. Sed vel mauris sit amet leo porta dictum. Vestibulum iaculis euismod turpis ac blandit. Curabitur tristique efficitur justo, eget eleme ntum est imperdiet quis. Integer enim nisi, tincidunt eu ullamcorper ac, interdum nec sapien. Phase llus dolor odio, scelerisque id elit vel, aliquam hendrerit ex.</p>
+								<p>Nam eget eleifend justo, in gravida quam. Nam nec libero id nibh pellentesque aliquet. Cras rhoncus, tortor in eleifend commodo, lacus sem posuere nisl, ut porta enim ante eget magna. In vitae tincidunt orci. Pellentesque sit amet dui vel quam dapibus rhoncus. Praesent cursus placerat egestas.</p>
+								<div class="tags">
+									<div class="tag"><img src="images/tag01.png" alt="tag">Accepts Credit Cards</div>
+									<div class="tag"><img src="images/tag02.png" alt="tag">Parking Street</div>
+									<div class="tag"><img src="images/tag03.png" alt="tag">Pets Friendly</div>
+									<div class="tag"><img src="images/tag04.png" alt="tag">Bike Parking</div>
+									<div class="tag"><img src="images/tag05.png" alt="tag">Wireless Internet</div>
+								</div> <!-- end .tags -->
+							</div> <!-- end .directory-single -->
+							<div class="reviews">
+								<h4>3 reviews.</h4>
+								<div class="review clearfix">
+									<div class="avatar"><img src="images/avatar01.jpg" alt="avatar"></div>
+									<ul class="meta list-unstyled">
+										<li class="name">Dignissim Auctor</li>
+										<li class="rating"><img src="images/star.png" alt="star"><img src="images/star.png" alt="star"><img src="images/star.png" alt="star"></li>
+										<li>on July 15, 2016</li>
+									</ul> <!-- end .meta -->
+									<div class="content">
+										<p>Nam ut ornare odio, eget eleifend turpis. Cras viverra, nulla id vehicula dictum, arcu nulla volutpat dolor, a pharetra lacus dui in eros. Sed nec fermentum nisi. Vestibulum blandit erat id purus commodo, vel luctus turpis vulputate. Quisque mauris risus, luctus nec.</p>
+									</div> <!-- end .content -->
+								</div> <!-- end .review -->
+								<div class="review clearfix">
+									<div class="avatar"><img src="images/avatar02.jpg" alt="avatar"></div>
+									<ul class="meta list-unstyled">
+										<li class="name">Congue Sapien</li>
+										<li class="rating"><img src="images/star.png" alt="star"><img src="images/star.png" alt="star"><img src="images/star.png" alt="star"><img src="images/star.png" alt="star"></li>
+										<li>on July 15, 2016</li>
+									</ul> <!-- end .meta -->
+									<div class="content">
+										<p>Sed nec fermentum nisi. Vestibulum blandit erat id purus commodo, vel luctus turpis vulputate. Quisque mauris risus, luctus nec.</p>
+									</div> <!-- end .content -->
+								</div> <!-- end .review -->
+								<div class="review clearfix">
+									<div class="avatar"><img src="images/avatar03.jpg" alt="avatar"></div>
+									<ul class="meta list-unstyled">
+										<li class="name">Aliquam Tristique</li>
+										<li class="rating"><img src="images/star.png" alt="star"><img src="images/star.png" alt="star"><img src="images/star.png" alt="star"><img src="images/star.png" alt="star"><img src="images/star.png" alt="star"></li>
+										<li>on July 15, 2016</li>
+									</ul> <!-- end .meta -->
+									<div class="content">
+										<p>Sed nec fermentum nisi. Vestibulum blandit erat id purus commodo vel luctus.</p>
+									</div> <!-- end .content -->
+								</div> <!-- end .review -->
+							</div> <!-- end .reviews -->
+							<div class="add-review">
+								<h4>Rate and write a review.</h4>
+								<form>
+									<div class="row">
+										<div class="col-sm-6">
+											<div class="form-group">
+												<input type="text" placeholder="Your Name*" required>
+											</div> <!-- end .form-group -->
+										</div> <!-- end .col-sm-6 -->
+										<div class="col-sm-6">
+											<div class="form-group">
+												<input type="email" placeholder="Your@email.com*" required>
+											</div> <!-- end .form-group -->
+										</div> <!-- end .col-sm-6 -->
+									</div> <!-- end .row -->
+									<div class="form-group">
+										<textarea rows="3" placeholder="Your reviews here ..." required></textarea>
+									</div> <!-- end .form-group -->
+									<div class="clearfix">
+										<fieldset class="rating">
+											<input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+											<input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+											<input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+											<input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+											<input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+											<input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+											<input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+											<input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+											<input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+											<input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+										</fieldset>
+										<button type="submit" class="button">Submit your reviews</button>
+									</div> <!-- end .clearfix -->
+								</form>
+							</div> <!-- end .add-review -->
+						</div> <!-- end .col-md-8 -->
+						<div class="col-md-4">
+							<div class="sidebar-widget">
+								<div class="category"><h5><img src="images/cutlery.png" alt="icon">Cutlery</h5><h5><img src="images/wine.png" alt="icon">Bar</h5></div>
+							</div> <!-- end .sidebar-widget -->
+							<div class="sidebar-widget">
+								<h5><img src="images/clock.png" alt="icon">Hours</h5>
+								<div class="hours clearfix">
+									<div class="left">Monday - Sunday</div>
+									<div class="right">07:00 am – 22:00 pm</div>
+								</div> <!-- end .hours -->
+							</div> <!-- end .sidebar-widget -->
+							<div class="sidebar-widget">
+								<h5><img src="images/email.png" alt="icon">Contact Us</h5>
+								<form action="scripts/contact.php" method="post" id="contact-form" class="contact-form">
+									<div class="form-group">
+										<input type="text" id="contact-name" name="contact-name" placeholder="Your Name" required>
+									</div> <!-- end .form-group -->
+									<div class="form-group">
+										<input type="email" id="contact-email" name="contact-email" placeholder="Your Email" required>
+									</div> <!-- end .form-group -->
+									<div class="form-group">
+										<input type="text" id="contact-subject" name="contact-subject" placeholder="Subject">
+									</div> <!-- end .form-group -->
+									<div class="form-group">
+										<textarea name="contact-message" id="contact-message" required rows="3" placeholder="Your message here ..."></textarea>
+									</div> <!-- end .form-group -->
+									<div class="clearfix"><button type="submit" class="button">Submit</button></div>
+								</form>
+							</div> <!-- end .sidebar-widget -->
+							<div class="sidebar-widget">
+								<h5><img src="images/instagram.png" alt="icon">Instagram</h5>
+								<div class="instagram">
+									<a href=""><img src="images/instagram01.png" alt="image"></a>
+									<a href=""><img src="images/instagram02.png" alt="image"></a>
+									<a href=""><img src="images/instagram03.png" alt="image"></a>
+									<a href=""><img src="images/instagram04.png" alt="image"></a>
+									<a href=""><img src="images/instagram05.png" alt="image"></a>
+									<a href=""><img src="images/instagram06.png" alt="image"></a>
+									<a href=""><img src="images/instagram07.png" alt="image"></a>
+									<a href=""><img src="images/instagram08.png" alt="image"></a>
+									<a href=""><img src="images/instagram09.png" alt="image"></a>
+								</div>
+							</div> <!-- end .sidebar-widget -->
+						</div> <!-- end .col-md-4 -->
+					</div> <!-- end .row -->
+				</div> <!-- end .container -->
+			</div> <!-- end .inner -->
+		</div> <!-- end .section -->
+		
+		<footer class="footer">
+			<div class="top">
+				<div class="left">
+					<div class="logo"><a href="index.html"><img src="images/logo-dark.png" alt="ExploreCity" class="img-responsive"></a></div> <!-- end .logo -->
+				</div> <!-- end .left -->
+				<div class="social-icons">
+					<a href=""><i class="pe-so-facebook"></i></a>
+					<a href=""><i class="pe-so-twitter"></i></a>
+					<a href=""><i class="pe-so-vimeo"></i></a>
+					<a href=""><i class="pe-so-tripadvisor"></i></a>
+					<a href=""><i class="pe-so-instagram"></i></a>
+					<a href=""><i class="pe-so-google-plus"></i></a>
+				</div>
+				<div class="right">Proudly Made in Viet Nam<a href="">+84 968796789</a></div> <!-- end .left -->
+			</div> <!-- end .top -->
+			<div class="bottom">Copyright &copy; 2016. All Rights Reserved By <a href="">Wecookcode</a></div>
+		</footer> <!-- end .footer -->
+
+		<div class="login-wrapper">
+			<div class="login">
+				<form>
+					<div class="form-group">
+						<input type="text" placeholder="Username or Email Address *">
+					</div> <!-- end .form-group -->
+					<div class="form-group">
+						<input type="text" placeholder="Password *">
+					</div> <!-- end .form-group -->
+					<div class="clearfix">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> Remember me
+							</label>
+						</div>
+						<a href="" class="lost-password">Lost your password ?</a>
+					</div> <!-- end .clearfix -->
+					<div class="button-wrapper"><button type="submit" class="button">Login</button></div>
+					<div class="text-center">
+						<p>Don't have an account ? <a href="" class="signup-open">Sign up</a></p>
+						<div class="social">
+							<p>Connect with Social Networks</p>
+							<a href=""><img src="images/facebook.png" alt="facebook"></a>
+							<a href=""><img src="images/twitter.png" alt="twitter"></a>
+							<a href=""><img src="images/google-plus.png" alt="google plus"></a>
+						</div> <!-- end .social -->
+					</div>
+				</form>
+			</div> <!-- end .login -->
+		</div> <!-- end .login-wrapper -->
+
+		<div class="signup-wrapper">
+			<div class="signup">
+				<form>
+					<div class="form-group">
+						<input type="text" placeholder="Username">
+					</div> <!-- end .form-group -->
+					<div class="form-group">
+						<input type="email" placeholder="Email Address">
+					</div> <!-- end .form-group -->
+					<div class="text-center">
+						<p>A password will be e-mailed to you.</p>
+					</div> <!-- end .text-center -->
+					<div class="button-wrapper"><button type="submit" class="button">Register</button></div>
+					<div class="text-center">
+						<p>Already have an account? <a href="" class="login-open">Log in</a></p>
+						<div class="social">
+							<p>Connect with Social Networks</p>
+							<a href=""><img src="images/facebook.png" alt="facebook"></a>
+							<a href=""><img src="images/twitter.png" alt="twitter"></a>
+							<a href=""><img src="images/google-plus.png" alt="google plus"></a>
+						</div> <!-- end .social -->
+					</div>
+				</form>
+			</div> <!-- end .signup -->
+		</div> <!-- end .signup-wrapper -->
+
+		<!-- jQuery -->
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<!-- Bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- google maps -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAy-PboZ3O_A25CcJ9eoiSrKokTnWyAmt8"></script>
+		<!-- rich marker -->
+		<script src="js/richmarker.js"></script>
+		<!-- Owl Carousel -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- Countdown -->
+		<script src="js/countdown.js"></script>
+		<!-- Sweet Alert -->
+		<script src="js/sweetalert.min.js"></script>
+		<!-- Nivo Lightbox -->
+		<script src="scripts/Nivo-Lightbox/nivo-lightbox.min.js"></script>
+		<!-- NoUISlider -->
+		<script src="js/jquery.nouislider.all.min.js"></script>
+		<!-- Bootstrap Select -->
+		<script src="js/bootstrap-select.min.js"></script>
+		<!-- Nice Scroll -->
+		<script src="js/jquery.nicescroll.min.js"></script>
+		<!-- Scripts.js -->
+		<script src="js/scripts.js"></script>
+
+		<script>
+
+			/*==========  Map  ==========*/
+			var map;
+			function initialize_map() {
+				if ($('.single-map').length) {
+					var myLatLng = new google.maps.LatLng(40.716715,-74.003352);
+					var mapOptions = {
+						zoom: 17,
+						center: myLatLng,
+						scrollwheel: false,
+						zoomControl: false,
+						scaleControl: false,
+						mapTypeControl: false,
+						streetViewControl: false
+					};
+					map = new google.maps.Map(document.getElementById('single-map'), mapOptions);
+					var marker = new google.maps.Marker({
+						position: myLatLng,
+						map: map,
+						title: 'Envato',
+						icon: './images/marker.png'
+					});
+				} else {
+					return false;
+				}
+
+				return false;
+			}
+			google.maps.event.addDomListener(window, 'load', initialize_map);
+
+		</script>
+
+	</body>
+</html>
